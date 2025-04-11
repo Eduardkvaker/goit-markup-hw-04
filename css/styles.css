@@ -183,9 +183,10 @@ display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     width: 270px;
-    height: 98px;
+    height: 248px;
     margin-right: 30px;
 }
+
 .caption {
     color: var(--title-text-color);
     font-family: var(--primery-font-family);
