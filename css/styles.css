@@ -280,6 +280,23 @@ display: flex;
     line-height: 1.2;
     letter-spacing: 0.48px;
 }
+.customers-list{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: auto;
+    padding-bottom: 94px;
+}
+.customers-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    width: 170px;
+    height: 92px;
+    border: 1px solid rgba(196, 196, 196, 1);
+}
 .footer {
     background: #2F303A;
 }
