@@ -107,6 +107,7 @@ body {
 }
 .mail,
 .phone {
+    display: flex;
     color: #757575;
     font-family: Roboto;
     font-size: 14px;
@@ -116,7 +117,16 @@ body {
     letter-spacing: 0.28px;
     text-decoration: none;
     padding-right: 50px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 51px;
 }
+.post,
+.telephone{
+    margin-right: 10px;
+}
+
 .mail:hover,
 .mail:focus,
 .phone:hover,
