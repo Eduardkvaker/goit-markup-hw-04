@@ -90,6 +90,8 @@ body {
 .list-nav {
     list-style-type: none;
     display: flex;
+    height: 80px;
+    align-items: center;
 }
 .address{
      margin-top: 20px;
