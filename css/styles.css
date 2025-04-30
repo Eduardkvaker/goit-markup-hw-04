@@ -310,7 +310,16 @@ display: flex;
     margin-right: 10px;
     width: 44px;
     height: 44px;
-    border: 1px solid rgba(196, 196, 196, 1);
+    border-radius: 50%;
+}
+.socials-link:hover{
+    background-color: #2196F3;
+}
+.socials-icon{
+    fill: rgba(196, 196, 196, 1);
+}
+.socials-icon:hover{
+    fill: #FFF;
 }
 .customers-list{
     display: flex;
@@ -328,6 +337,16 @@ display: flex;
     width: 170px;
     height: 92px;
     border: 1px solid rgba(196, 196, 196, 1);
+}
+.customers-icon{
+    fill: rgba(196, 196, 196, 1);
+}
+.customers-link:hover{
+    border-color: #2196F3;
+}
+.customers-link:hover .customers-icon,
+.customers-link:focus .customers-icon{
+    fill:#2196F3; 
 }
 .footer {
     background: #2F303A;
