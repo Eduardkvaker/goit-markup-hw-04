@@ -30,8 +30,8 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 32px;
-    padding-top: 32px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 .footer-container{
     padding-bottom: 45px;
@@ -90,7 +90,7 @@ body {
 .list-nav {
     list-style-type: none;
     display: flex;
-    height: 80px;
+    height: 16px;
     align-items: center;
 }
 .address{
@@ -125,13 +125,19 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    
+    height: 16px;
 }
 .post,
 .telephone{
     margin-right: 10px;
+    height: 12px;
 }
-
+.post:hover,
+.telephone:hover,
+.post:focus,
+.telephone:focus{
+fill: #2196F3;
+}
 .mail:hover,
 .mail:focus,
 .phone:hover,
