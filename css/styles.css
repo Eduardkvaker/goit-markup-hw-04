@@ -216,9 +216,16 @@ display: flex;
     width: 270px;
     height: 120px;
     background-color: rgba(245, 244, 250, 1)
-}
+    }
 .icoli:hover{
-    background-color: #188CE8;
+    border-color: #188CE8;
+}
+.point-icon{
+    fill: #212121;
+}
+.icoli:hover .point-icon,
+.icoli:focus .point-icon{
+    fill: #188CE8;
 }
 .caption {
     color: var(--title-text-color);
